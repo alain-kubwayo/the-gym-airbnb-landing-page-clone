@@ -7,91 +7,100 @@
     <title>Airbnb - Clone</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/assets/index.f9e1375f.css">
+  <link rel="stylesheet" href="/assets/index.bc14da17.css">
 </head>
 <body>
     <div class="sticky top-0 z-50 bg-white">
-        <div class="flex flex-col md:grid md:grid-cols-3 px-24 py-8 border-b border-gray-300 shadow-lg">
-            <div class="content-center">
+        <div class="border-b border-gray-300 shadow-sm md:py-6 md:px-8 lg:px-10 lg:py-2 xl:px-20 xl:py-6 2xl:px-16 2xl:py-4 md:grid md:grid-cols-6 lg:grid-cols-4 lg:gap-x-20 xl:gap-x-0 xl:grid-cols-3">
+            <div class="flex items-center md:col-span-1">
                 <a href="https://airbnbn.com">
-                    <img src="/assets/logo.b383aa49.png" alt="AirBnB Logo" class="h-20">
+                    <img src="/assets/logo-no-text.5fab0915.svg" alt="AirBnB Logo Without Text" class="hidden h-8 md:block xl:hidden 2xl:hidden" />
+                    <img src="/assets/logo.b383aa49.png" alt="AirBnB Logo" class="h-16 md:hidden xl:block 2xl:block" />
                 </a>
             </div>
-            
-            <div class="rounded-full flex items-center justify-center shadow-2xl">
-                <div class="flex items-center justify-center space-x-4">
-                    <a href="#">Anywhere</a>
+            <div class="flex items-center justify-center border-2 border-gray-200 rounded-full shadow-md md:col-span-3 lg:col-span-2 xl:col-span-1">
+                <div class="flex items-center justify-center w-full md:justify-end lg:space-x-2">
+                    <a href="#" class="px-4">Anywhere</a>
                     <div class="h-4 bg-gray-400 w-0.5"></div>
-                    <a href="#">Any week</a>
+                    <a href="#" class="px-4">Any week</a>
                     <div class="h-4 bg-gray-400 w-0.5"></div>
-                    <div>
+                    <div class="px-4">
                         <a href="#" class="text-gray-400">Add Guests</a>
-                        <i class="fa fa-search px-2 py-2 bg-red-500 rounded-full text-white"></i>
+                        <i class="px-2 py-2 text-white bg-red-500 rounded-full fa fa-search"></i>
                     </div>
                 </div>
             </div>
-            <div class="flex items-center justify-center space-x-4">
-                <button class="hover:rounded-full hover:bg-gray-300 px-4 py-4">Become a Host</button>
-                <button class="hover:rounded-full hover:bg-gray-300 px-4 py-4"><i class="fa fa-globe fa-2x"></i></button>
-                <button class="rounded-full shadow-2xl border-2 border-gray-300 px-4 py-4 flex space-x-2">
-                    <i class="fa fa-bars"></i>
-                    <i class="fa fa-user-circle"></i>
+            <div class="flex items-center justify-end space-x-4 md:col-span-2">
+                <button class="px-4 py-4 hover:rounded-full hover:bg-gray-200">Become a Host</button>
+                <button class="flex items-center px-4 py-4 hover:rounded-full justiy-center hover:bg-gray-200">
+                    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 16px; width: 16px; fill: currentcolor;"><path d="m8.002.25a7.77 7.77 0 0 1 7.748 7.776 7.75 7.75 0 0 1 -7.521 7.72l-.246.004a7.75 7.75 0 0 1 -7.73-7.513l-.003-.245a7.75 7.75 0 0 1 7.752-7.742zm1.949 8.5h-3.903c.155 2.897 1.176 5.343 1.886 5.493l.068.007c.68-.002 1.72-2.365 1.932-5.23zm4.255 0h-2.752c-.091 1.96-.53 3.783-1.188 5.076a6.257 6.257 0 0 0 3.905-4.829zm-9.661 0h-2.75a6.257 6.257 0 0 0 3.934 5.075c-.615-1.208-1.036-2.875-1.162-4.686l-.022-.39zm1.188-6.576-.115.046a6.257 6.257 0 0 0 -3.823 5.03h2.75c.085-1.83.471-3.54 1.059-4.81zm2.262-.424c-.702.002-1.784 2.512-1.947 5.5h3.904c-.156-2.903-1.178-5.343-1.892-5.494l-.065-.007zm2.28.432.023.05c.643 1.288 1.069 3.084 1.157 5.018h2.748a6.275 6.275 0 0 0 -3.929-5.068z"></path></svg>
+                </button>
+                <button class="relative flex items-center px-4 py-4 space-x-4 border-2 border-gray-300 rounded-full shadow-xl hover:shadow-2xl">
+                    <i class="fa fa-bars fa-x"></i>
+                    <div class="absolute w-3 h-3 bg-red-600 rounded-full top-1 right-1"></div>
+                    <i class="fa fa-user-circle fa-2x"></i>
                 </button>
             </div>
         </div>
-        <div class="flex justify-evenly items-center space-x-15 px-24 pt-8 pb-0">
+        <div class="flex items-center justify-between md:py-6 md:px-8 lg:px-10 lg:py-6 xl:px-20 xl:py-6 2xl:px-16 2xl:pt-4 space-x-15">
             <div class="flex flex-col items-center pb-3 border-b-2 border-black">
                 <img class="i1wps9q8 dir dir-ltr" src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" alt="" width="24" height="24">
                 <p class="mt-2">OMG!</p>
             </div>
-            <div class="flex flex-col items-center pb-3 hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer text-gray-400">
+            <div class="flex flex-col items-center pb-3 text-gray-400 hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer">
                 <img class="i1wps9q8 dir dir-ltr" src="https://a0.muscache.com/pictures/c0a24c04-ce1f-490c-833f-987613930eca.jpg" alt="" width="24" height="24">
                 <p class="mt-2">National parks</p>
             </div>
-            <div class="flex flex-col items-center hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer text-gray-400">
+            <div class="flex flex-col items-center text-gray-400 hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer">
                 <img class="i1wps9q8 dir dir-ltr" src="https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg" alt="" width="24" height="24">
                 <p class="mt-2">Amazing pools</p>
             </div>
-            <div class="flex flex-col items-center hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer text-gray-400">
+            <div class="flex flex-col items-center text-gray-400 hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer">
                 <img class="i1wps9q8 dir dir-ltr" src="https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg" alt="" width="24" height="24">
                 <p class="mt-2">Islands</p>
             </div>
-            <div class="flex flex-col items-center hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer text-gray-400">
+            <div class="flex flex-col items-center text-gray-400 hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer">
                 <img class="i1wps9q8 dir dir-ltr" src="https://a0.muscache.com/pictures/8b44f770-7156-4c7b-b4d3-d92549c8652f.jpg" alt="" width="24" height="24">
                 <p class="mt-2">Arctic</p>
             </div>
-            <div class="flex flex-col items-center hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer text-gray-400">
+            <div class="flex flex-col items-center text-gray-400 hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer">
                 <img class="i1wps9q8 dir dir-ltr" src="https://a0.muscache.com/pictures/35919456-df89-4024-ad50-5fcb7a472df9.jpg" alt="" width="24" height="24">
                 <p class="mt-2">Tiny homes</p>
             </div>
-            <div class="flex flex-col items-center hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer text-gray-400">
+            <div class="flex-col items-center hidden text-gray-400 lg:flex hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer">
                 <img class="i1wps9q8 dir dir-ltr" src="https://a0.muscache.com/pictures/50861fca-582c-4bcc-89d3-857fb7ca6528.jpg" alt="" width="24" height="24">
                 <p class="mt-2">Design</p>
             </div>
-            <div class="flex flex-col items-center hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer text-gray-400">
+            <div class="flex-col items-center hidden text-gray-400 lg:flex hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer">
                 <img class="i1wps9q8 dir dir-ltr" src="https://a0.muscache.com/pictures/957f8022-dfd7-426c-99fd-77ed792f6d7a.jpg" alt="" width="24" height="24">
                 <p class="mt-2">Surfing</p>
             </div>
-            <div class="flex flex-col items-center hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer text-gray-400">
+            <div class="flex-col items-center hidden text-gray-400 lg:flex hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer">
                 <img class="i1wps9q8 dir dir-ltr" src="https://a0.muscache.com/pictures/732edad8-3ae0-49a8-a451-29a8010dcc0c.jpg" alt="" width="24" height="24">
                 <p class="mt-2">Cabins</p>
             </div>
-            <div class="flex flex-col items-center hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer text-gray-400">
+            <div class="flex-col items-center hidden text-gray-400 lg:flex hover:border-b-2 hover:border-gray-400 hover:shadow-md hover:cursor-pointer">
                 <img class="i1wps9q8 dir dir-ltr" src="https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt="" width="24" height="24">
                 <p class="mt-2">Lakefront</p>
             </div>
-            <div class="hover:rounded-full px-2 py-2 hover:shadow-lg hover:cursor-pointer flex items-center justify-center">
-                <i class="fa fa-arrow-circle-right fa-2x"></i>
+            <div class="flex items-center justify-center px-2 py-2 border border-gray-200 rounded-full shadow-md hover:shadow-2xl hover:cursor-pointer">
+                <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible;"><g fill="none"><path d="m12 4 11.2928932 11.2928932c.3905243.3905243.3905243 1.0236893 0 1.4142136l-11.2928932 11.2928932"></path></g></svg>
             </div>
-            <div class="text-gray-400 px-4 py-4 hover:cursor-pointer rounded-md border border-gray-200">
-                <p>Filters</p>
+            <div class="flex items-center px-4 py-4 space-x-2 border border-gray-200 rounded-md hover:cursor-pointer">
+                <p>
+                    <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 14px; width: 14px; fill: currentcolor;"><path d="M5 8c1.306 0 2.418.835 2.83 2H14v2H7.829A3.001 3.001 0 1 1 5 8zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm6-8a3 3 0 1 1-2.829 4H2V4h6.17A3.001 3.001 0 0 1 11 2zm0 2a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"></path></svg>
+                </p>
+                <p class="text-gray-400">Filters</p>
             </div>
         </div>
     </div>
-    <div class="px-36 py-8 grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-8">
+    <div class="grid gap-8 lg:px-10 md:py-6 md:px-8 lg:py-6 xl:px-20 xl:py-6 2xl:px-16 2xl:py-8 md:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-5">
         <div class="hover:cursor-pointer">
-            <div class="rounded-2xl overflow-hidden">
-                <img src="/assets/house-1.46db015e.png" alt="A beautiful house" class="h-64 w-full">
+            <div class="relative overflow-hidden rounded-2xl">
+                <div class="absolute z-30 top-4 right-4">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z" stroke="#FFFFFF" fill-opacity="0.5" fill="#000000" stroke-width="2px"></path></svg>
+                </div>
+                <img src="/assets/house-1.46db015e.png" alt="A beautiful house" class="w-full h-64">
             </div>
             <div class="mt-4">
                 <div class="flex justify-between">
@@ -104,8 +113,11 @@
             </div>
         </div>
         <div class="hover:cursor-pointer">
-            <div class="rounded-2xl overflow-hidden">
-                <img src="/assets/house-2.b9208765.png" alt="A beautiful house" class="h-64 w-full">
+            <div class="relative overflow-hidden rounded-2xl">
+                <div class="absolute z-30 top-4 right-4">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z" stroke="#FFFFFF" fill-opacity="0.5" fill="#000000" stroke-width="2px"></path></svg>
+                </div>
+                <img src="/assets/house-2.b9208765.png" alt="A beautiful house" class="w-full h-64">
             </div>
             <div class="mt-4">
                 <div class="flex justify-between">
@@ -118,8 +130,11 @@
             </div>
         </div>
         <div class="hover:cursor-pointer">
-            <div class="rounded-2xl overflow-hidden">
-                <img src="/assets/house-3.1a1da85d.png" alt="A beautiful house" class="h-64 w-full">
+            <div class="relative overflow-hidden rounded-2xl">
+                <div class="absolute z-30 top-4 right-4">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z" stroke="#FFFFFF" fill-opacity="0.5" fill="#000000" stroke-width="2px"></path></svg>
+                </div>
+                <img src="/assets/house-3.1a1da85d.png" alt="A beautiful house" class="w-full h-64">
             </div>
             <div class="mt-4">
                 <div class="flex justify-between">
@@ -132,8 +147,11 @@
             </div>
         </div>
         <div class="hover:cursor-pointer">
-            <div class="rounded-2xl overflow-hidden">
-                <img src="/assets/house-4.9ab03668.png" alt="A beautiful house" class="h-64 w-full">
+            <div class="relative overflow-hidden rounded-2xl">
+                <div class="absolute z-30 top-4 right-4">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z" stroke="#FFFFFF" fill-opacity="0.5" fill="#000000" stroke-width="2px"></path></svg>
+                </div>
+                <img src="/assets/house-4.9ab03668.png" alt="A beautiful house" class="w-full h-64">
             </div>
             <div class="mt-4">
                 <div class="flex justify-between">
@@ -146,8 +164,11 @@
             </div>
         </div>
         <div class="hover:cursor-pointer">
-            <div class="rounded-2xl overflow-hidden">
-                <img src="/assets/house-5.da05673b.png" alt="A beautiful house" class="h-64 w-full">
+            <div class="relative overflow-hidden rounded-2xl">
+                <div class="absolute z-30 top-4 right-4">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z" stroke="#FFFFFF" fill-opacity="0.5" fill="#000000" stroke-width="2px"></path></svg>
+                </div>
+                <img src="/assets/house-5.da05673b.png" alt="A beautiful house" class="w-full h-64">
             </div>
             <div class="mt-4">
                 <div class="flex justify-between">
@@ -160,8 +181,11 @@
             </div>
         </div>
         <div class="hover:cursor-pointer">
-            <div class="rounded-2xl overflow-hidden">
-                <img src="/assets/house-6.0e28bcc5.png" alt="A beautiful house" class="h-64 w-full">
+            <div class="relative overflow-hidden rounded-2xl">
+                <div class="absolute z-30 top-4 right-4">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z" stroke="#FFFFFF" fill-opacity="0.5" fill="#000000" stroke-width="2px"></path></svg>
+                </div>
+                <img src="/assets/house-6.0e28bcc5.png" alt="A beautiful house" class="w-full h-64">
             </div>
             <div class="mt-4">
                 <div class="flex justify-between">
@@ -174,8 +198,11 @@
             </div>
         </div>
         <div class="hover:cursor-pointer">
-            <div class="rounded-2xl overflow-hidden">
-                <img src="/assets/house-7.6d383987.png" alt="A beautiful house" class="h-64 w-full">
+            <div class="relative overflow-hidden rounded-2xl">
+                <div class="absolute z-30 top-4 right-4">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z" stroke="#FFFFFF" fill-opacity="0.5" fill="#000000" stroke-width="2px"></path></svg>
+                </div>
+                <img src="/assets/house-7.6d383987.png" alt="A beautiful house" class="w-full h-64">
             </div>
             <div class="mt-4">
                 <div class="flex justify-between">
@@ -188,8 +215,11 @@
             </div>
         </div>
         <div class="hover:cursor-pointer">
-            <div class="rounded-2xl overflow-hidden">
-                <img src="/assets/house-8.8767bfc8.png" alt="A beautiful house" class="h-64 w-full">
+            <div class="relative overflow-hidden rounded-2xl">
+                <div class="absolute z-30 top-4 right-4">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z" stroke="#FFFFFF" fill-opacity="0.5" fill="#000000" stroke-width="2px"></path></svg>
+                </div>
+                <img src="/assets/house-8.8767bfc8.png" alt="A beautiful house" class="w-full h-64">
             </div>
             <div class="mt-4">
                 <div class="flex justify-between">
@@ -202,8 +232,11 @@
             </div>
         </div>
         <div class="hover:cursor-pointer">
-            <div class="rounded-2xl overflow-hidden">
-                <img src="/assets/house-9.8510a582.png" alt="A beautiful house" class="h-64 w-full">
+            <div class="relative overflow-hidden rounded-2xl">
+                <div class="absolute z-30 top-4 right-4">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z" stroke="#FFFFFF" fill-opacity="0.5" fill="#000000" stroke-width="2px"></path></svg>
+                </div>
+                <img src="/assets/house-9.8510a582.png" alt="A beautiful house" class="w-full h-64">
             </div>
             <div class="mt-4">
                 <div class="flex justify-between">
@@ -216,8 +249,11 @@
             </div>
         </div>
         <div class="hover:cursor-pointer">
-            <div class="rounded-2xl overflow-hidden">
-                <img src="/assets/house-10.4b441786.png" alt="A beautiful house" class="h-64 w-full">
+            <div class="relative overflow-hidden rounded-2xl">
+                <div class="absolute z-30 top-4 right-4">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z" stroke="#FFFFFF" fill-opacity="0.5" fill="#000000" stroke-width="2px"></path></svg>
+                </div>
+                <img src="/assets/house-10.4b441786.png" alt="A beautiful house" class="w-full h-64">
             </div>
             <div class="mt-4">
                 <div class="flex justify-between">
@@ -230,8 +266,11 @@
             </div>
         </div>
         <div class="hover:cursor-pointer">
-            <div class="rounded-2xl overflow-hidden">
-                <img src="/assets/house-11.a13413f8.png" alt="A beautiful house" class="h-64 w-full">
+            <div class="relative overflow-hidden rounded-2xl">
+                <div class="absolute z-30 top-4 right-4">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z" stroke="#FFFFFF" fill-opacity="0.5" fill="#000000" stroke-width="2px"></path></svg>
+                </div>
+                <img src="/assets/house-11.a13413f8.png" alt="A beautiful house" class="w-full h-64">
             </div>
             <div class="mt-4">
                 <div class="flex justify-between">
@@ -244,8 +283,11 @@
             </div>
         </div>
         <div class="hover:cursor-pointer">
-            <div class="rounded-2xl overflow-hidden">
-                <img src="/assets/house-12.84ad7a78.png" alt="A beautiful house" class="h-64 w-full">
+            <div class="relative overflow-hidden rounded-2xl">
+                <div class="absolute z-30 top-4 right-4">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: rgba(0, 0, 0, 0.5); height: 24px; width: 24px; stroke: var(--f-mkcy-f); stroke-width: 2; overflow: visible;"><path d="m16 28c7-4.733 14-10 14-17 0-1.792-.683-3.583-2.05-4.95-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05l-2.051 2.051-2.05-2.051c-1.367-1.366-3.158-2.05-4.95-2.05-1.791 0-3.583.684-4.949 2.05-1.367 1.367-2.051 3.158-2.051 4.95 0 7 7 12.267 14 17z" stroke="#FFFFFF" fill-opacity="0.5" fill="#000000" stroke-width="2px"></path></svg>
+                </div>
+                <img src="/assets/house-12.84ad7a78.png" alt="A beautiful house" class="w-full h-64">
             </div>
             <div class="mt-4">
                 <div class="flex justify-between">
@@ -258,19 +300,19 @@
             </div>
         </div>
     </div>
-    <div class="flex justify-between px-24 py-8 border-t border-gray-300 sticky bottom-0 z-50 bg-white text-gray-700">
-        <div class="flex space-x-4 justify-center items-center text-sm">
+    <div class="sticky bottom-0 z-50 flex items-center justify-between text-gray-700 bg-white border-t border-gray-300 md:py-6 md:px-8 md:space-x-4 md:justify-evenly lg:px-10 lg:py-2 xl:px-20 xl:py-6 2xl:px-16 2xl:py-8">
+        <div class="flex items-center justify-center space-x-4 text-sm md:space-x-2">
             <p>&copy; 2022 Airbnb, Inc.</p>
-            <p class="h-1 w-1 bg-gray-600"></p>
+            <p class="w-1 h-1 bg-gray-600"></p>
             <p class="hover:cursor-pointer hover:underline">Privacy</p>
-            <p class="h-1 w-1 bg-gray-600"></p>
+            <p class="w-1 h-1 bg-gray-600"></p>
             <p class="hover:cursor-pointer hover:underline">Terms</p>
-            <p class="h-1 w-1 bg-gray-600"></p>
+            <p class="w-1 h-1 bg-gray-600"></p>
             <p class="hover:cursor-pointer hover:underline">Sitemap</p>
-            <p class="h-1 w-1 bg-gray-600"></p>
+            <p class="w-1 h-1 bg-gray-600"></p>
             <p class="hover:cursor-pointer hover:underline">Destinations</p>
         </div>
-        <div class="flex space-x-4 items-center">
+        <div class="flex items-center space-x-4 md:space-x-1">
             <i class="fa fa-globe"></i>
             <p class="hover:cursor-pointer hover:underline">English (US)</p>
             <p>$ <span class="hover:cursor-pointer hover:underline">USD</span></p>
